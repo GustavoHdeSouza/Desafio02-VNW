@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+}
+
+header{
+    // border: solid 2px;
+    
+    height: 19.4vh;
+    background-color:  #FF69B4;
+    color: #E4EEF1; 
+    font-size: 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .h1{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;        
+    }
+}
+    // .h2{        
+    //     ul{
+    //         display:flex; 
+    //         justify-content: space-around; 
+
+            
+    //     }
+        
+    // }
+    .lis{
+        display: inline-block;
+        margin: 0 4rem; 
+    }
+
+
+
+.primeira{
+    // border: solid 2px green;
+    height: 62.1vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #FFD9EC;
+    color: #000000;
+    font-size: 25px;
+    
+
+    .container1{
+       // border: solid 2px gray;
+        height: 43.6vh;
+        width: 42.9vw;
+
+    }
+    .container2{
+       // border: solid 2px purple;
+        height: 58.4vh;
+        width: 26.7vw;
+
+    }
+}
+
+.segunda{
+   // border: solid 2px rgb(82, 68, 207);
+    height: 43.1vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:  #FF69B4;
+    color: #E4EEF1;
+    font-size: 25px;
+
+    .container3{
+        height: 38.5vh;
+        width: 30.8vw;
+
+    }
+    .container4{
+        height: 28.6vh;
+        width: 47.3vw;
+
+    }
+}
+
+.terceira{
+   // border: solid 2px red;
+    height: 70.1vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #FFD9EC;
+
+}
+
+.quarta{
+   // border: solid 2px red;
+    height: 23.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:  #FF69B4;
+    text-align: center;
+    color: #E4EEF1;
+    font-size: 20px;
+
+ }
